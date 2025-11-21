@@ -1,0 +1,89 @@
+#############################################################
+#                     FLUTTER / DART                        #
+#############################################################
+
+.dart_tool/
+.packages
+.buildlog/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+.pub-cache/
+.pub/
+build/
+
+lib/generated_plugin_registrant.dart
+
+coverage/
+
+# APK / AAB
+android/app/*.apk
+android/app/*.aab
+
+# Firebase configs (nunca commitar)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Keys de assinatura
+key.properties
+*.jks
+*.keystore
+
+#############################################################
+#                       LARAVEL PHP                         #
+#############################################################
+
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/logs/*.log
+/bootstrap/cache/*.php
+
+# Ambiente
+.env
+.env.*.backup
+.env.local
+*.env
+
+# Composer & PHPUnit
+composer.lock
+phpunit.xml
+.phpunit.result.cache
+
+#############################################################
+#                      VSCODE / IDEs                        #
+#############################################################
+
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+**/xcuserdata/
+**/DerivedData/
+**/Pods/
+**/.symlinks/
+xcuserdata
+*.xcuserstate
+
+#############################################################
+#                        SISTEMA                            #
+#############################################################
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+*.swp
+*~
+.cache/
+
+*.log
+*.tmp
+*.pid
+*.seed
+*.out
